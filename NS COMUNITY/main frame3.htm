@@ -1,0 +1,260 @@
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+<title>제목 없음</title>
+<meta name="generator" content="Namo WebEditor v6.0">
+<meta http-equiv="Page-Enter" content="revealTrans(Duration=0,Transition=23)">
+
+
+<base target="detail">
+
+<script language="JavaScript"><!--
+function namosw_init_float_layers()
+{
+  var name;
+  var layer;
+  var i;
+  var j;
+
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = (navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById);
+
+  j = 0;
+  document._float_layers = new Array(Math.max(1, namosw_init_float_layers.arguments.length/2));
+  for (i = 0; i < namosw_init_float_layers.arguments.length; i += 2) {
+    name  = namosw_init_float_layers.arguments[i];
+    if (name == '')
+      return;
+
+    if (is_ns4) {
+      layer = document.layers[name];
+      layer._fl_pos_left = layer.left;
+      layer._fl_pos_top  = layer.top;
+    } else if (is_ns6) {
+      layer = document.getElementById(name);
+      layer._fl_pos_left = parseInt(layer.style.left);
+      layer._fl_pos_top  = parseInt(layer.style.top);
+    } else {
+      layer = document.all[name];
+      layer._fl_pos_left = layer.style.pixelLeft;
+      layer._fl_pos_top  = layer.style.pixelTop;
+    }
+
+    layer._fl_pos = namosw_init_float_layers.arguments[i+1];
+    if (layer)
+      document._float_layers[j++] = layer;
+  }
+
+  document._fl_interval = setInterval('namosw_process_float_layers()', 200);
+}
+
+function namosw_page_width()
+{
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = (navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById);
+
+  return (is_ns4 || is_ns6) ? innerWidth  : document.body.clientWidth;
+}
+
+function namosw_page_height()
+{
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = (navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById);
+
+  return (is_ns4 || is_ns6) ? innerHeight : document.body.clientHeight;
+}
+
+function namosw_process_float_layers()
+{
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = (navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById);
+
+  if (document._float_layers) {
+      var i;
+      var layer;
+      for (i = 0; i < document._float_layers.length; i++) {
+	  layer = document._float_layers[i];
+	  if (is_ns4) {
+	    if (layer._fl_pos == 1)
+	      layer.left = layer._fl_pos_left + window.pageXOffset;
+	    else if (layer._fl_pos == 2 || layer._fl_pos == 5) 
+	      layer.left = window.pageXOffset;
+	    else if (layer._fl_pos == 3 || layer._fl_pos == 6) 
+	      layer.left = window.pageXOffset + (namosw_page_width() - layer.clip.width)/2;
+	    else
+	      layer.left = window.pageXOffset + namosw_page_width() - layer.clip.width - 16;
+	    if (layer._fl_pos == 1)
+	      layer.top = layer._fl_pos_top + window.pageYOffset;
+	    else if (layer._fl_pos == 2 || layer._fl_pos == 3 || layer._fl_pos == 4)
+	      layer.top = window.pageYOffset;
+	    else
+	      layer.top  = window.pageYOffset + namosw_page_height() - layer.clip.height;
+	  } else if (is_ns6) {
+	    if (layer._fl_pos == 1)
+	      layer.style.left = layer._fl_pos_left + window.pageXOffset;
+	    else if (layer._fl_pos == 2 || layer._fl_pos == 5)
+	      layer.style.left = window.pageXOffset;
+	    else if (layer._fl_pos == 3 || layer._fl_pos == 6)
+	      layer.style.left = window.pageXOffset + (namosw_page_width() - parseInt(layer.style.width))/2;
+	    else
+	      layer.style.left = window.pageXOffset + namosw_page_width()  - parseInt(layer.style.width);
+	    if (layer._fl_pos == 1)
+	      layer.style.top = layer._fl_pos_top + document.body.scrollTop;
+	    else if (layer._fl_pos == 2 || layer._fl_pos == 3 || layer._fl_pos == 4)
+	      layer.style.top = window.pageYOffset;
+	    else
+	      layer.style.top  = window.pageYOffset + namosw_page_height() - parseInt(layer.style.height);
+          }
+          else {
+	    if (layer._fl_pos == 1)
+	      layer.style.pixelLeft = layer._fl_pos_left + document.body.scrollLeft;
+	    else if (layer._fl_pos == 2 || layer._fl_pos == 5)
+	      layer.style.pixelLeft = document.body.scrollLeft;
+	    else if (layer._fl_pos == 3 || layer._fl_pos == 6)
+	      layer.style.pixelLeft = document.body.scrollLeft + (namosw_page_width() - layer.style.pixelWidth)/2;
+	    else
+	      layer.style.pixelLeft = document.body.scrollLeft + namosw_page_width()  - layer.style.pixelWidth;
+	    if (layer._fl_pos == 1)
+	      layer.style.pixelTop = layer._fl_pos_top + document.body.scrollTop;
+	    else if (layer._fl_pos == 2 || layer._fl_pos == 3 || layer._fl_pos == 4)
+	      layer.style.pixelTop = document.body.scrollTop;
+	    else
+	      layer.style.pixelTop  = document.body.scrollTop  + namosw_page_height() - layer.style.pixelHeight;
+         }
+      }
+  }
+}
+
+// -->
+</script>
+<script language="JavaScript"><!--
+function na_open_window(name, url, left, top, width, height, toolbar, menubar, statusbar, scrollbar, resizable)
+{
+  toolbar_str = toolbar ? 'yes' : 'no';
+
+  menubar_str = menubar ? 'yes' : 'no';
+
+  statusbar_str = statusbar ? 'yes' : 'no';
+
+  scrollbar_str = scrollbar ? 'yes' : 'no';
+
+  resizable_str = resizable ? 'yes' : 'no';
+
+
+
+  cookie_str = document.cookie;
+  cookie_str.toString();
+
+
+  pos_start  = cookie_str.indexOf(name);
+
+  pos_start  = cookie_str.indexOf('=', pos_start);
+
+  pos_end    = cookie_str.indexOf(';', pos_start);
+  
+  if (pos_end <= 0) pos_end = cookie_str.length;
+
+  cookie_val = cookie_str.substring(pos_start + 1, pos_end);
+
+
+
+  if (cookie_val  == "done")
+
+    return;
+
+
+
+  window.open(url, name, 'left='+left+',top='+top+',width='+width+',height='+height+',toolbar='+toolbar_str+',menubar='+menubar_str+',status='+statusbar_str+',scrollbars='+scrollbar_str+',resizable='+resizable_str);
+
+}
+
+// -->
+</script>
+</head>
+
+<body text="black" link="blue" vlink="purple" alink="red" leftmargin="0" marginwidth="0" OnLoad="na_open_window('win', 'http://www.naksaeng.hs.kr/LiveManager/popup.php?idx=108&_page=1', 0, 0, 600, 800, 0, 0, 0, 1, 0); namosw_init_float_layers('layer1', 1);">
+<p><img src="줄임말.jpg" width="989" height="239" border="0" vspace="0" hspace="0"></p>
+<div id="layer3" style="width:395px; height:148px; position:absolute; left:1px; top:302px; z-index:1;">
+    <table width="401" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="19">1</td>
+            <td width="382"><a href="http://wo.to/board/view.php?id=a.14.mgh3326&inum=25&pg=1&select=&search=&ctgry=" target="detail"><span style="font-size:16pt;"><font face="HY바다M">NS커뮤니티는</font></span></a></td>
+        </tr>
+        <tr>
+            <td width="19">&nbsp;</td>
+            <td width="382">&nbsp;</td>
+        </tr>
+    </table>
+    <p>&nbsp;</p>
+</div>
+<div id="layer1" style="background-color:rgb(255,255,204); width:75px; height:200px; position:absolute; left:910px; top:270px; z-index:1;">
+    <p align="center"><img src="떠다니는놈.jpg" width="85" height="255" border="0" usemap="#ImageMap1"></p>
+</div>
+<div id="layer3" style="width:405px; height:168px; position:absolute; left:420px; top:297px; z-index:1;">
+    <table border="0" width="405">
+        <tr>
+            <td width="16">1</td>
+            <td width="373">
+                <p><a href="../My Site/Site4/student page3.htm" target="detail" title="11월일정"><font face="HY바다M"><span style="font-size:16pt;">11월일정</span></font></a></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="16">&nbsp;</td>
+            <td width="373">&nbsp;</td>
+        </tr>
+    </table>
+    <p>&nbsp;</p>
+</div>
+<p><img src="공지사항.jpg" width="400" height="167" border="0" vspace="10" hspace="0" usemap="#ImageMap2"><img src="행사일정.jpg" width="400" height="167" border="0" vspace="10" hspace="20" usemap="#ImageMap3"></p>
+<div id="layer4" style="width:406px; height:181px; position:absolute; left:0px; top:507px; z-index:1;">
+    <table border="0" width="406" height="45">
+        <tr>
+            <td width="54" height="19">1</td>
+            <td width="342" height="19">
+                <p><B><span style="font-size:16pt;"><font face="HY바다M"><a href="http://wo.to/board/view.php?id=a.2.mgh3326&inum=16&pg=1&select=&search=&ctgry=" target="detail" title="예시글 입니다.">낙생고등학교(예시글)</a></font></span></B></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="54">&nbsp;</td>
+            <td width="342">&nbsp;</td>
+        </tr>
+    </table>
+    <p>&nbsp;</p>
+</div>
+<p><img src="행사안내.jpg" width="400" height="167" border="0" vspace="10" hspace="0" usemap="#ImageMap5"><img src="핫앤뉴글.jpg" width="400" height="167" border="0" vspace="10" hspace="20" usemap="#ImageMap4"></p>
+<p><iframe frameborder='0' height='600' width='700' leftmargin='0' marginheight='0' marginwidth='0' topmargin='0' scrolling='no'  src='http://wo.to/board/board.php?id=a.4.mgh3326'></iframe></p>
+<p>&nbsp;</p>
+<div id="layer2" style="width:400px; height:163px; position:absolute; left:423px; top:507px; z-index:1;">
+    <table border="0" width="404" height="60">
+        <tr>
+            <td width="83" height="25"><a href="../My Site/Site4/comunity page6.htm" target="detail" title="맨토앤맨티">맨토앤맨티</a></td>
+            <td width="311" height="25">
+                <p><B><B><a href="http://wo.to/board/view.php?id=a.10.mgh3326&inum=21&pg=1&select=&search=&ctgry=" target="detail" title="클릭"><font face="HY바다M"><span style="font-size:12pt;">현재 1학년 재학생 맨토 구합니다 ㅜㅜ</span></font></a></B></B></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="83" height="27"><a href="../My Site/Site4/Event.htm" target="detail">이벤트</a></td>
+            <td width="311" height="27">
+                <p><B><B><a href="http://wo.to/board/view.php?id=a.13.mgh3326&inum=24&pg=1&select=&search=&ctgry=" target="detail" title="진행중임!!"><span style="font-size:16pt;"><font face="HY바다M">N.S 커뮤니티에서 활동하자!!</font></span></a></B></B></p>
+            </td>
+        </tr>
+    </table>
+    <p>&nbsp;</p>
+</div>
+<map name="ImageMap1">
+<area shape="rect" coords="2, 8, 82, 77" href="javascript:na_open_window('win', 'http://www.naksaeng.hs.kr', 0, 0, 800, 600, 1, 1, 1, 1, 1)" target="_self" alt="낙생고등학교로 이동됩니다.">
+<area shape="rect" coords="2, 188, 84, 244" href="javascript:na_open_window('win', 'http://www.ebsi.co.kr', 0, 0, 800, 600, 1, 1, 1, 1, 1)" target="_self" alt="ebsi로 이동됩니다.">
+<area shape="rect" coords="1, 78, 83, 134" href="javascript:na_open_window('win', 'http://www.edison21.co.kr/', 0, 0, 300, 200, 1, 1, 1, 1, 1)" target="_self" alt="낙생고등학교 발명부로 이동됩니다.">
+<area shape="rect" coords="1, 131, 82, 190" href="javascript:na_open_window('win', 'http://danopy.goedu.kr/', 0, 0, 300, 200, 1, 1, 1, 1, 1)" target="_self" alt="다높이로 이동합니다.">
+</map><map name="ImageMap2">
+<area shape="rect" coords="325, 2, 384, 20" href="../Site4/comunity%20page1.htm" target="detail" alt="공지사항으로 이동">
+</map><map name="ImageMap3">
+<area shape="rect" coords="324, 2, 387, 21" href="../Site4/student%20page3.htm" target="detail" alt="행사일정 목록보기">
+</map><map name="ImageMap5">
+<area shape="rect" coords="324, 4, 385, 21" href="../Site4/comunity%20page7.htm" target="detail" alt="행사안내">
+</map><map name="ImageMap4">
+<area shape="rect" coords="322, 1, 384, 20" href="../Site4/comunity%20page6.htm" target="detail" alt="맨토앤맨티로">
+</map></body>
+
+</html>

@@ -1,0 +1,38 @@
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+<title>제목 없음</title>
+<meta name="generator" content="Namo WebEditor(Trial)">
+<script language="JavaScript">
+<!--
+function namosw_scrollstatus()
+{
+  var str = '';
+  if (namosw_scrollstatus.arguments.length > 0) {
+    var i;
+    for (str = '', i = 0; i < 100; i++)
+      str += ' ';
+    for (i = 0; i < namosw_scrollstatus.arguments.length; i++)
+      str += namosw_scrollstatus.arguments[i] + ' ';
+    document.namosw_scrollstatus = str;
+  } else {
+    var src_str = document.namosw_scrollstatus;
+    str  = src_str.substring(1, src_str.length);
+    str += src_str.substring(0, 1);
+    document.namosw_scrollstatus = str;
+  }
+  window.status = str;
+  setTimeout('namosw_scrollstatus()', 100);
+}
+
+// -->
+</script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="purple" alink="red" OnLoad="namosw_scrollstatus('N.S 커뮤니티의 오신것을 환영합니다!!', '', '')">
+<p>Copyright (c) 2010 NakSaeng Comunity(문광현). All&nbsp;rights reserved.<a href="mailto:mgh3326@naver.com"><br>
+mgh3326@naver.com</a> 문의</p>
+</body>
+
+</html>

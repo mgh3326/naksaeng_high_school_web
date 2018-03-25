@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta name="GENERATOR" content="Namo WebEditor(Trial)">
+
+
+<meta http-equiv="Site-Enter" content="revealTrans(Duration=0,Transition=23)">
+<meta name="author" content="臾멸킅??>
+<title>N.S 而ㅻ??덊떚 寃뚯떆??/title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+<script language="JavaScript">
+<!--
+function na_restore_img_src(name, nsdoc)
+{
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img && img.altsrc) {
+    img.src    = img.altsrc;
+    img.altsrc = null;
+  } 
+}
+
+function na_change_img_src(name, nsdoc, rpath, preload)
+{ 
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img) {
+    img.altsrc = img.src;
+    img.src    = rpath;
+  } 
+}
+
+// -->
+</script>
+
+</head>
+<body bgcolor="white">
+
+<!--NAMO_NAVBAR_START A h         6 7 21 5 4 6 -->
+<div>
+<font face="서울도트">[<a href="comunity page1.htm"  onmouseover="" onmouseout="">공지사항</a>][<a href="comunity page2.htm"  onmouseover="" onmouseout="">자유게시판</a>][<a href="comunity page3.htm"  onmouseover="" onmouseout="">질문/질답게시판</a>][<a href="comunity page4.htm"  onmouseover="" onmouseout="">스터디 게시판</a>][<a href="comunity page5.htm"  onmouseover="" onmouseout="">동아리 게시판</a>][<a href="comunity page6.htm"  onmouseover="" onmouseout="">맨토앤맨티</a>][<a href="comunity page7.htm"  onmouseover="" onmouseout="">학교행사</a>]</font></div>
+<!--NAMO_NAVBAR_END--><p><span style="font-size:12pt;"><b><font face="HY태백B" color="#4BACC6">N.S커뮤니티</font></b></span><font face="HY태백B"><span style="font-size:12pt;">는 제목과 같듯이 모든 낙생인들 서로간의 아주 편한자리 라는 뜻을 지니고 있습니다.<br>
+자유로운 의사소통을 위한 공간입니다.</span></font></p>
+</body>
+</html> 

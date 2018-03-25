@@ -1,0 +1,232 @@
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+<title>제목 없음</title>
+<meta name="generator" content="Namo WebEditor(Trial)">
+<meta http-equiv="Page-Enter" content="revealTrans(Duration=0,Transition=23)">
+
+
+<base target="detail">
+
+
+<script language="JavaScript">
+<!--
+function namosw_init_float_layers()
+{
+  var name;
+  var layer;
+  var i;
+  var j;
+
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = (navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById);
+
+  j = 0;
+  document._float_layers = new Array(Math.max(1, namosw_init_float_layers.arguments.length/2));
+  for (i = 0; i < namosw_init_float_layers.arguments.length; i += 2) {
+    name  = namosw_init_float_layers.arguments[i];
+    if (name == '')
+      return;
+
+    if (is_ns4) {
+      layer = document.layers[name];
+      layer._fl_pos_left = layer.left;
+      layer._fl_pos_top  = layer.top;
+    } else if (is_ns6) {
+      layer = document.getElementById(name);
+      layer._fl_pos_left = parseInt(layer.style.left);
+      layer._fl_pos_top  = parseInt(layer.style.top);
+    } else {
+      layer = document.all[name];
+      layer._fl_pos_left = layer.style.pixelLeft;
+      layer._fl_pos_top  = layer.style.pixelTop;
+    }
+
+    layer._fl_pos = namosw_init_float_layers.arguments[i+1];
+    if (layer)
+      document._float_layers[j++] = layer;
+  }
+
+  document._fl_interval = setInterval('namosw_process_float_layers()', 200);
+}
+
+function namosw_page_width()
+{
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = (navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById);
+
+  return (is_ns4 || is_ns6) ? innerWidth  : document.body.clientWidth;
+}
+
+function namosw_page_height()
+{
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = (navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById);
+
+  return (is_ns4 || is_ns6) ? innerHeight : document.body.clientHeight;
+}
+
+function namosw_process_float_layers()
+{
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = (navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById);
+
+  if (document._float_layers) {
+      var i;
+      var layer;
+      for (i = 0; i < document._float_layers.length; i++) {
+	  layer = document._float_layers[i];
+	  if (is_ns4) {
+	    if (layer._fl_pos == 1)
+	      layer.left = layer._fl_pos_left + window.pageXOffset;
+	    else if (layer._fl_pos == 2 || layer._fl_pos == 5) 
+	      layer.left = window.pageXOffset;
+	    else if (layer._fl_pos == 3 || layer._fl_pos == 6) 
+	      layer.left = window.pageXOffset + (namosw_page_width() - layer.clip.width)/2;
+	    else
+	      layer.left = window.pageXOffset + namosw_page_width() - layer.clip.width - 16;
+	    if (layer._fl_pos == 1)
+	      layer.top = layer._fl_pos_top + window.pageYOffset;
+	    else if (layer._fl_pos == 2 || layer._fl_pos == 3 || layer._fl_pos == 4)
+	      layer.top = window.pageYOffset;
+	    else
+	      layer.top  = window.pageYOffset + namosw_page_height() - layer.clip.height;
+	  } else if (is_ns6) {
+	    if (layer._fl_pos == 1)
+	      layer.style.left = layer._fl_pos_left + window.pageXOffset;
+	    else if (layer._fl_pos == 2 || layer._fl_pos == 5)
+	      layer.style.left = window.pageXOffset;
+	    else if (layer._fl_pos == 3 || layer._fl_pos == 6)
+	      layer.style.left = window.pageXOffset + (namosw_page_width() - parseInt(layer.style.width))/2;
+	    else
+	      layer.style.left = window.pageXOffset + namosw_page_width()  - parseInt(layer.style.width);
+	    if (layer._fl_pos == 1)
+	      layer.style.top = layer._fl_pos_top + document.body.scrollTop;
+	    else if (layer._fl_pos == 2 || layer._fl_pos == 3 || layer._fl_pos == 4)
+	      layer.style.top = window.pageYOffset;
+	    else
+	      layer.style.top  = window.pageYOffset + namosw_page_height() - parseInt(layer.style.height);
+          }
+          else {
+	    if (layer._fl_pos == 1)
+	      layer.style.pixelLeft = layer._fl_pos_left + document.body.scrollLeft;
+	    else if (layer._fl_pos == 2 || layer._fl_pos == 5)
+	      layer.style.pixelLeft = document.body.scrollLeft;
+	    else if (layer._fl_pos == 3 || layer._fl_pos == 6)
+	      layer.style.pixelLeft = document.body.scrollLeft + (namosw_page_width() - layer.style.pixelWidth)/2;
+	    else
+	      layer.style.pixelLeft = document.body.scrollLeft + namosw_page_width()  - layer.style.pixelWidth;
+	    if (layer._fl_pos == 1)
+	      layer.style.pixelTop = layer._fl_pos_top + document.body.scrollTop;
+	    else if (layer._fl_pos == 2 || layer._fl_pos == 3 || layer._fl_pos == 4)
+	      layer.style.pixelTop = document.body.scrollTop;
+	    else
+	      layer.style.pixelTop  = document.body.scrollTop  + namosw_page_height() - layer.style.pixelHeight;
+         }
+      }
+  }
+}
+
+// -->
+</script>
+<script language="JavaScript">
+<!--
+function na_open_window(name, url, left, top, width, height, toolbar, menubar, statusbar, scrollbar, resizable)
+{
+  toolbar_str = toolbar ? 'yes' : 'no';
+  menubar_str = menubar ? 'yes' : 'no';
+  statusbar_str = statusbar ? 'yes' : 'no';
+  scrollbar_str = scrollbar ? 'yes' : 'no';
+  resizable_str = resizable ? 'yes' : 'no';
+
+  cookie_str = document.cookie;
+  cookie_str.toString();
+
+  pos_start  = cookie_str.indexOf(name);
+  pos_end    = cookie_str.indexOf('=', pos_start);
+
+  cookie_name = cookie_str.substring(pos_start, pos_end);
+
+  pos_start  = cookie_str.indexOf(name);
+  pos_start  = cookie_str.indexOf('=', pos_start);
+  pos_end    = cookie_str.indexOf(';', pos_start);
+  
+  if (pos_end <= 0) pos_end = cookie_str.length;
+  cookie_val = cookie_str.substring(pos_start + 1, pos_end);
+  if (cookie_name == name && cookie_val  == "done")
+    return;
+
+  window.open(url, name, 'left='+left+',top='+top+',width='+width+',height='+height+',toolbar='+toolbar_str+',menubar='+menubar_str+',status='+statusbar_str+',scrollbars='+scrollbar_str+',resizable='+resizable_str);
+}
+
+// -->
+</script>
+</head>
+
+<body bgcolor="#D7E6FF" text="black" link="blue" vlink="purple" alink="red" leftmargin="0" marginwidth="0" OnLoad="namosw_init_float_layers('layer1', 1);">
+<p><img src="줄임말.jpg" width="700" height="169" border="0" vspace="0" hspace="0"></p>
+<p>&nbsp;</p>
+<div id="layer1" style="background-color:rgb(255,255,204); width:75px; height:200px; position:absolute; left:632px; top:202px; z-index:1;">
+    <p align="center"><img src="떠다니는놈.jpg" width="85" height="255" border="0" usemap="#ImageMap1"></p>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><img src="공지사항.jpg" width="300" height="125" border="0" vspace="10" hspace="0"><img src="행사안내.jpg" width="300" height="125" border="0" vspace="10" hspace="20"></p>
+<p><img src="행사안내.jpg" width="300" height="125" border="0" vspace="10" hspace="0"><img src="핫앤뉴글.jpg" width="300" height="125" border="0" vspace="10" hspace="20"></p>
+<div id="layer2" style="width:297px; height:98px; position:absolute; left:320px; top:522px; z-index:1;">
+    <table border="1" width="298" cellspacing="0" bordercolordark="white" bordercolorlight="black">
+        <tr>
+            <td width="53">
+                <p><b><u><font face="HY엽서M" color="red"><span style="font-size:10pt;">(이벤트)</span></font></u></b></p>
+            </td>
+            <td width="229">
+                <p><b><u><font face="HY엽서M" color="red"><span style="font-size:10pt;">N.S 커뮤니티 생성 기념</span></font></u></b></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="53">
+                <p>&nbsp;</p>
+            </td>
+            <td width="229">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="53">&nbsp;</td>
+            <td width="229">&nbsp;</td>
+        </tr>
+    </table>
+    <p>&nbsp;</p>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><map name="ImageMap1">
+<area shape="rect" coords="2, 8, 82, 77" href="javascript:na_open_window('win', 'http://www.naksaeng.hs.kr', 0, 0, 800, 600, 1, 1, 1, 1, 1)" target="_self" alt="낙생고등학교로 이동됩니다.">
+<area shape="rect" coords="2, 188, 84, 244" href="javascript:na_open_window('win', 'http://www.ebsi.co.kr', 0, 0, 800, 600, 1, 1, 1, 1, 1)" target="_self" alt="ebsi로 이동됩니다.">
+<area shape="rect" coords="1, 78, 83, 134" href="javascript:na_open_window('win', 'http://www.edison21.co.kr/', 0, 0, 300, 200, 1, 1, 1, 1, 1)" target="_self" alt="낙생고등학교 발명부로 이동됩니다.">
+</map></p>
+</body>
+
+</html>

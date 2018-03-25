@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta name="GENERATOR" content="Namo WebEditor(Trial)">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+
+
+
+<meta name="author" content="문광현"><title>질문/질답 게시판</title>
+<script language="JavaScript">
+<!--
+function na_restore_img_src(name, nsdoc)
+{
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img && img.altsrc) {
+    img.src    = img.altsrc;
+    img.altsrc = null;
+  } 
+}
+
+function na_change_img_src(name, nsdoc, rpath, preload)
+{ 
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img) {
+    img.altsrc = img.src;
+    img.src    = rpath;
+  } 
+}
+
+// -->
+</script>
+
+</head>
+<body>
+
+<!--NAMO_NAVBAR_START A h         16 7 34 5 4 6 -->
+<div>
+<font face="서울전설M"><b>[질문/질답 게시판][<a href="guide page2.htm"  onmouseover="" onmouseout="">동아리 안내</a>][<a href="guide page3_1.htm"  onmouseover="" onmouseout="">낙생의 자랑거리</a>][<a href="guide page3.htm"  onmouseover="" onmouseout="">교가</a>]</b></font></div>
+<!--NAMO_NAVBAR_END--><p>&nbsp;</p>
+</body>
+</html> <iframe frameborder='0' height='600' width='700' leftmargin='0' marginheight='0' marginwidth='0' topmargin='0' scrolling='no'  src='http://wo.to/board/board.php?id=a.11.mgh3326'></iframe>

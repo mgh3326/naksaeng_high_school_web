@@ -1,0 +1,58 @@
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+<title>제목 없음</title>
+<meta name="generator" content="Namo WebEditor(Trial)">
+<meta http-equiv="Page-Enter" content="revealTrans(Duration=5,Transition=22)">
+<bgsound src="schoolsong.wav"><base target="header">
+<script language="JavaScript">
+<!--
+function na_open_window(name, url, left, top, width, height, toolbar, menubar, statusbar, scrollbar, resizable)
+{
+  toolbar_str = toolbar ? 'yes' : 'no';
+  menubar_str = menubar ? 'yes' : 'no';
+  statusbar_str = statusbar ? 'yes' : 'no';
+  scrollbar_str = scrollbar ? 'yes' : 'no';
+  resizable_str = resizable ? 'yes' : 'no';
+
+  cookie_str = document.cookie;
+  cookie_str.toString();
+
+  pos_start  = cookie_str.indexOf(name);
+  pos_end    = cookie_str.indexOf('=', pos_start);
+
+  cookie_name = cookie_str.substring(pos_start, pos_end);
+
+  pos_start  = cookie_str.indexOf(name);
+  pos_start  = cookie_str.indexOf('=', pos_start);
+  pos_end    = cookie_str.indexOf(';', pos_start);
+  
+  if (pos_end <= 0) pos_end = cookie_str.length;
+  cookie_val = cookie_str.substring(pos_start + 1, pos_end);
+  if (cookie_name == name && cookie_val  == "done")
+    return;
+
+  window.open(url, name, 'left='+left+',top='+top+',width='+width+',height='+height+',toolbar='+toolbar_str+',menubar='+menubar_str+',status='+statusbar_str+',scrollbars='+scrollbar_str+',resizable='+resizable_str);
+}
+
+// -->
+</script></head>
+
+<body bgcolor="white" text="black" link="blue" vlink="purple" alink="red" leftmargin="0" marginwidth="0">
+<img src="탑메뉴2.jpg" width="997" height="28" border="0" usemap="#ImageMap2"><img src="메뉴변경.jpg" width="1002" height="85" border="0" hspace="0" vspace="5" usemap="#ImageMap1" alt="메뉴입니다." align="bottom"><map name="ImageMap1">
+<area shape="rect" coords="64, 3, 276, 84" href="../Site4/N.S%20student.htm" target="detail" alt="NS 학생게시판">
+<area shape="rect" coords="282, 3, 531, 83" href="../Site4/N.S%20comunity%20board.htm" target="detail" alt="NS 커뮤니티게시판
+">
+<area shape="rect" coords="555, 6, 770, 83" href="../Site4/N.S%20guide.htm" target="detail">
+<area shape="rect" coords="783, 2, 943, 82" href="../Site4/Event.htm" target="detail">
+</map><map name="ImageMap2">
+<area shape="rect" coords="161, 1, 251, 25" href="../Site4/main.htm" target="_parent" alt="메인으로">
+<area shape="rect" coords="418, 1, 510, 27" href="javascript:na_open_window('win', 'http://www.naksaeng.hs.kr/', 0, 0, 800, 600, 1, 1, 1, 1, 1)" target="_self" alt="낙생고등학교로 이동 되어집니다.">
+<area shape="rect" coords="598, 1, 695, 27" href="../Site4/comunity%20page6.htm" target="detail" alt="맨토앤맨티">
+<area shape="rect" coords="324, 1, 417, 26" href="../Site4/member.htm" target="detail" alt="회원가입">
+<area shape="rect" coords="513, 3, 594, 26" href="mailto:mgh3326@naver.com" alt="이메일로 문의가 되어집니다.">
+<area shape="rect" coords="701, 2, 820, 25" href="../Site4/guide%20page2.htm" target="detail" alt="동아리안내">
+</map></body>
+
+</html>

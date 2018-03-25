@@ -1,0 +1,59 @@
+<html>
+<head>
+<meta name="GENERATOR" content="Namo WebEditor(Trial)">
+
+<meta name="namo-theme" content="Theme\Soft\Soft09">
+<style><!--
+body { font-family:Arial; font-size:12pt; background-color:rgb(248,248,248); }
+h1 { font-family:Arial; font-size:14pt; color:rgb(0,0,102); }
+h2 { font-family:Arial; font-size:12pt; color:rgb(40,86,143); }
+p.namo-list { font-family:Arial; font-size:12pt; color:rgb(51,51,51); }
+p.namo-sublist { font-family:Arial; font-size:11pt; color:rgb(102,102,102); }
+table.namo-table { background-color:rgb(154,192,202); border-width:1; border-style:none; }
+table.namo-table td { font-family:Arial; font-size:12pt; color:rgb(102,102,102); background-color:rgb(244,248,250); border-width:1; border-style:none; }
+table.namo-table th { font-family:Arial; font-size:12pt; color:rgb(0,102,255); background-color:rgb(226,232,233); border-width:1; border-style:none; }
+a:hover { color:rgb(0,102,255); text-decoration:underline; }
+span.namo-link, a:link { color:rgb(204,51,153); text-decoration:underline; }
+span.namo-visited, a:visited { color:rgb(153,153,153); text-decoration:underline; }
+span.namo-active, a:active { color:rgb(0,102,255); text-decoration:underline; }
+li.namo-list1 { list-style-image:url('nav/bullet1.gif'); }
+li.namo-list2 { list-style-image:url('nav/bullet2.gif'); }
+--></style>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="author" content="문광현"></head>
+<frameset rows="100%" cols="1*">
+<frame name="main" scrolling="auto" marginwidth="10" marginheight="14" src="index.htm">
+<noframes>
+<body background="nth_theme_soft_soft09_bg.gif">
+
+<p><font face="HY엽서M" color="red"><b><img src="1.jpg" width="152" height="45" border="0"></b></font></p>
+<p><a href="student page3.htm" target="detail" title="낙생고 11월 일정"><img src="홈으로~.jpg" width="170" height="57" border="0"><img src="낙생고 일정.jpg" width="142" height="28" border="0" vspace="200" align="middle">&nbsp;</a><a href="student page3.htm" target="detail" title="낙생고 11월 일정"><img src="홈으로~.jpg" width="170" height="57" border="0"><img src="낙생고 일정.jpg" width="142" height="28" border="0" vspace="200" align="middle">&nbsp;</a><b><font face="HY엽서M" color="red">이벤트) &nbsp;&nbsp;&nbsp;&nbsp;N.S 커뮤니티 생성 기념</font></b></p>
+    <table border="1" width="276">
+        <tr>
+            <td width="53">
+                <p><b><u><font face="HY엽서M" color="red"><span style="font-size:10pt;">(이벤트)</span></font></u></b></p>
+            </td>
+            <td width="207">
+                <p><b><u><font face="HY엽서M" color="red"><span style="font-size:10pt;">N.S 커뮤니티 생성 기념</span></font></u></b></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="53">
+                <p>&nbsp;</p>
+            </td>
+            <td width="207">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="53">&nbsp;</td>
+            <td width="207">&nbsp;</td>
+        </tr>
+    </table>
+<p><img src="공지사항.jpg" width="280" height="116" border="0" vspace="10" hspace="20"><img src="메뉴변경.jpg" width="700" height="85" border="0" hspace="20" vspace="10"><img src="행사안내.jpg" width="300" height="125" border="0" vspace="10" hspace="20"><img src="행사안내.jpg" width="300" height="125" border="0" vspace="10" hspace="20"><img src="공지사항.jpg" width="300" height="125" border="0" vspace="10" hspace="20"></p>
+<div id="layer2" style="width:200px; height:200px; position:absolute; left:612px; top:696px; z-index:1;">
+    <p>&nbsp;</p>
+</div>
+<p>To view this page correctly, you need a Web browser that supports frames.</p>
+</body>
+</noframes>
+</frameset>
+</html> 

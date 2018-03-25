@@ -1,0 +1,83 @@
+<html>
+<head>
+<meta name="GENERATOR" content="Namo WebEditor">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<script language="JavaScript">
+<!--
+function na_restore_img_src(name, nsdoc)
+{
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img && img.altsrc) {
+    img.src    = img.altsrc;
+    img.altsrc = null;
+  } 
+}
+
+function na_change_img_src(name, nsdoc, rpath, preload)
+{ 
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img) {
+    img.altsrc = img.src;
+    img.src    = rpath;
+  } 
+}
+
+// -->
+</script>
+
+</head>
+<frameset rows="1*" cols="501, 1139" border="1">
+    <frame name="contents" scrolling="no" marginwidth="1000" marginheight="1400" namo_target_frame="contents" src="main%20frame.htm">
+    <frameset rows="140, 493, 49">
+        <frame name="header" scrolling="no" marginwidth="10" marginheight="14" src="../NS%20COMUNITY/main.htm" namo_target_frame="header">
+        <frame name="detail" scrolling="yes" marginwidth="10" marginheight="14" src="../NS%20COMUNITY/main%20frame3.htm" namo_target_frame="detail">
+        <frame name="footer" scrolling="no" marginwidth="10" marginheight="14" src="noname1.htm">
+    </frameset>
+    <noframes>
+    <body bgcolor="white" text="black" link="blue" vlink="purple" alink="red">
+<div id="layer1" style="width:217px; height:77px; position:absolute; left:9px; top:18px; z-index:1;">
+    <p>로고 들어갈 자리임</p>
+</div>
+<!--NAMO_NAVBAR_START A h         17 7 19 18 4 6 -->
+<div>
+<font face="HY나무L"></font></div>
+<!--NAMO_NAVBAR_END--><!--NAMO_NAVBAR_START A h         6 7 21 5 4 6 -->
+<div>
+<font face="서울도트">[<a href="comunity page1.htm"  onmouseover="" onmouseout="">공지사항</a>][<a href="comunity page2.htm"  onmouseover="" onmouseout="">자유게시판</a>][<a href="comunity page3.htm"  onmouseover="" onmouseout="">질문/질답게시판</a>][<a href="comunity page4.htm"  onmouseover="" onmouseout="">스터디 게시판</a>][<a href="comunity page5.htm"  onmouseover="" onmouseout="">동아리 게시판</a>][<a href="comunity page6.htm"  onmouseover="" onmouseout="">맨토앤맨티</a>][<a href="comunity page7.htm"  onmouseover="" onmouseout="">학교행사</a>]</font></div>
+<!--NAMO_NAVBAR_END--><p>&nbsp;</p>
+        <ul>
+            <div id="layer1" style="width:200px; height:200px; position:absolute; left:20px; top:828px; z-index:1;" namo_navtree="1;9">
+                <p>&nbsp;</p>
+            </div>
+        </ul>
+        <ul>
+            <div id="layer1" style="width:200px; height:200px; position:absolute; left:20px; top:828px; z-index:1;" namo_navtree="1;9">
+                <p>&nbsp;</p>
+            </div>
+        </ul>
+        <ul>
+            <div id="layer1" style="width:200px; height:200px; position:absolute; left:20px; top:865px; z-index:1;" namo_navtree="1;13">
+                <p>&nbsp;</p>
+            </div>
+        </ul>
+    <p>&nbsp;</p>
+        <ul>
+            <div id="layer1" style="width:200px; height:200px; position:absolute; left:20px; top:772px; z-index:1;" namo_navtree="0;9">
+                <p>&nbsp;</p>
+            </div>
+        </ul>
+    <p>&nbsp;</p>
+<p><img src="홈으로~.jpg" width="170" height="57" border="0"></p>
+<p><a href="main.htm"><img src="홈으로~.jpg" width="170" height="57" border="0"></a></p>
+    <p>&nbsp;</p>
+<p><font face="HY엽서M">&nbsp;</font></p>
+<font face="HY엽서M"><img src="탑메뉴1.jpg" width="704" height="28" border="0"></font><font face="HY엽서M">(이벤트) &nbsp;&nbsp;&nbsp;&nbsp;N.S 커뮤니티 생성 기념</font>To view this page correctly, you need a Web browser that supports frames.    </body>
+    </noframes>
+</frameset>
+
+</html>
+ 

@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta name="GENERATOR" content="Namo WebEditor(Trial)">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+
+
+
+<meta name="author" content="문광현"><title>N.S 안내게시판</title>
+<script language="JavaScript">
+<!--
+function na_restore_img_src(name, nsdoc)
+{
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img && img.altsrc) {
+    img.src    = img.altsrc;
+    img.altsrc = null;
+  } 
+}
+
+function na_change_img_src(name, nsdoc, rpath, preload)
+{ 
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img) {
+    img.altsrc = img.src;
+    img.src    = rpath;
+  } 
+}
+
+// -->
+</script>
+</head>
+<body>
+
+<!--NAMO_NAVBAR_START A h         17 7 19 18 4 6 -->
+<div>
+<font face="HY나무L"></font></div>
+<!--NAMO_NAVBAR_END--><p><b><font face="HY태백B" color="#7030A0">N.S안내게시판</font></b><font face="HY태백B">은 신입생들을 위함뿐 아니라 모든 낙생인(재학생, 졸업생, 신입생)을 위하여 낙생에 대해 안내하는 곳입니다.</font></p>
+<p>&nbsp;</p>
+
+</body>
+</html> 

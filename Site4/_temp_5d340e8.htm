@@ -1,0 +1,563 @@
+<html>
+<head>
+<meta name="GENERATOR" content="Namo WebEditor(Trial)">
+<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+<title>No title</title>
+<script language="JavaScript">
+<!--
+function namosw_list(parent, visible, width, height, font, size, fgColor, bgColor, indent, hbgColor, hfgColor) {
+  this.additem = namosw_l_additem;
+  this.addlist = namosw_l_addlist;
+  this.make    = namosw_l_make;
+  this.write   = namosw_l_write;
+  this.show    = namosw_l_show;
+  this.update  = namosw_l_update;
+  this.updateparent = namosw_l_updateparent;
+  this.items = new Array();
+  this.id = document.namosw_lists.length;
+  this.parent_id = 0;
+  this.x = 0;
+  this.y = 0;
+  this.visible = visible;
+  this.width    = width;
+  this.height   = height;
+  this.parent   = parent;
+  this.indent = indent;
+  this.fgColor = fgColor;
+  this.hfgColor = hfgColor;
+  this.bgColor  = bgColor;
+  this.hbgColor = hbgColor;
+
+  this.font_start = '';
+  this.font_end   = '';
+
+  this.font_start = '<font color=' + fgColor;
+  if (font != '') this.font_start += ' face=\"' + font + '\"';
+  if (size != '' && size.indexOf('pt', 0) == -1) this.font_start += ' size=' + size;
+  this.font_start += '>';
+
+  this.font_start += '<span';
+  if (size.indexOf('pt', 0) != -1)
+    this.font_start += ' style="font-size:' +size+ ';"';
+  this.font_start += '>';
+
+  this.font_end  = '</span>';
+  this.font_end += '</font>';
+
+  this.made     = false;
+  this.shown    = false;
+  document.namosw_lists[document.namosw_lists.length] = this;
+}
+
+function namosw_l_setclip(layer, left, right, top, bottom) {
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById;
+
+  if (is_ns4) {
+    layer.clip.left   = left; 
+    layer.clip.right  = right;
+    layer.clip.top    = top;  
+    layer.clip.bottom = bottom;
+  } else if (is_ns6) {
+    layer.style.width  = right-left;
+    layer.style.height = bottom-top;
+    layer.style.clip  = "rect(" + top + "," + right + "," + bottom + "," + left + ")";
+  } else {    
+    layer.style.pixelWidth  = right-left;
+    layer.style.pixelHeight = bottom-top;
+    layer.style.clip  = "rect(" + top + "," + right + "," + bottom + "," + left + ")";
+  }
+}
+
+function namosw_l_write() {
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById;
+
+  var layer, clip, str;
+  for(var i = 0; i < this.items.length; i++) { 
+    layer = this.items[i];
+    if (is_ns4) 
+      layer.visibility = "hidden";
+    else 
+      layer.style.visibility = "hidden";
+    str = "";
+
+    str += "<table width="+this.width+" nowrap border='0' cellpadding='0' cellspacing='0'><tr>";
+    if (0 < this.indent) str += "<td width="+this.indent+" nowrap>&nbsp;</td>";
+    if (layer.type == 'list') {
+      str += "<td width=15  valign='middle' nowrap><a";
+      if (is_ns4) str += " href=\"javascript:void(0);\"";
+      else        str += " style=\"cursor:hand;\"";
+      str += " onclick=\"namosw_l_expand("+layer.list.id+");\"><img src=\"collapsed.gif\" name=\"_img"+layer.list.id+"\" border='0'></a></td>";
+    } else {
+      str += "<td width=15 nowrap>&nbsp;</td>";
+    }
+    str += "<td height="+(this.height-3)+" width="+(this.width-15-this.indent)+" valign='middle' align='left'>";
+
+    if (layer.url)       str += "<a href=\"" + layer.url + "\" target=\"" + layer.frame + "\" style=\"text-decoration:none;\">";
+    if (this.font_start) str += this.font_start;
+    str += layer.text;
+    if (this.font_end) str += this.font_end;
+    if (layer.url)       str += "</a>";
+    str += "</td></table>";
+
+    str = str.replace("span", "span id='namoswlistspan" + layer.lid + "'");
+
+    if (is_ns4) {
+      layer.document.writeln(str);
+      layer.document.close();
+    } else if (is_ns6) {
+      layer.innerHTML = str;
+      layer.span = document.getElementById('namoswlistspan'+layer.lid);
+    } else {
+      layer.innerHTML = str;
+      layer.span = document.all['namoswlistspan'+layer.lid];
+    }
+    if (layer.type == 'list' && layer.list.visible)
+      this.items[i].list.write();
+  }
+  this.made = true;
+}
+
+function namosw_l_show() {
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById;
+
+  var layer;
+  for(var i = 0; i < this.items.length; i++) { 
+    layer = this.items[i];
+    namosw_l_setclip(layer, 0, this.width, 0, this.height-1);
+    if (is_ns4) {
+      if (layer.oBgColor) layer.document.bgColor = layer.oBgColor;
+      else layer.document.bgColor = this.bgColor;
+    } else {
+      if (layer.oBgColor) layer.style.backgroundColor = layer.oBgColor;
+      else layer.style.backgroundColor = this.bgColor;
+    }
+    if (layer.type == 'list' && layer.list.visible)
+      layer.list.show();
+  }
+  this.shown = true;
+}
+
+function namosw_l_update(parent_visible, x, y) {
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById;
+
+  var top = y, layer, list;
+  for(var i = 0; i < this.items.length; i++) { 
+    layer = this.items[i];
+    list  = layer.list;
+    if (this.visible && parent_visible) {
+      if (is_ns4) {
+	layer.visibility = "visible";
+	layer.top = top;
+	layer.left = x;
+      } else if (is_ns6) {
+	layer.style.visibility = "visible";
+	layer.style.top   = top;
+	layer.style.left  = x;	
+      } else {
+	layer.style.visibility = "visible";
+	layer.style.pixelTop   = top;
+	layer.style.pixelLeft  = x;	
+//	if (layer.url) layer.style.cursor = "hand";
+      }
+      top += this.height;
+    } else {
+      if (is_ns4)      layer.visibility = "hidden";
+      else if (is_ns6) layer.style.visibility = "hidden";
+      else             layer.style.visibility = "hidden";
+    }
+    if (layer.type == 'list') {
+      if (list.visible) {
+        if (!list.made)  list.write();
+        if (!list.shown) list.show();
+        if (is_ns4) layer.document.images[0].src = "collapsed.gif";
+	else eval('document.images._img'+list.id+'.src = "collapsed.gif"');
+      } else {
+	if (is_ns4) layer.document.images[0].src = "expanded.gif";
+	else eval('document.images._img'+list.id+'.src = "expanded.gif"');
+      }
+      if (list.made)
+        top = list.update(this.visible && parent_visible, x, top);
+    }
+  }
+  return top;
+}
+
+function namosw_l_updateparent(parent_id) {
+  this.parent_id = parent_id;
+  for(var i = 0; i < this.items.length; i++)
+    if (this.items[i].type == 'list')
+      this.items[i].list.updateparent(parent_id);
+}
+
+function namosw_l_expand(i) {
+  document.namosw_lists[i].visible = !document.namosw_lists[i].visible;
+  list = document.namosw_lists[document.namosw_lists[i].parent_id];
+  list.update(true, list.x, list.y);
+}
+
+function namosw_l_make(x, y) {
+  this.updateparent(this.id);
+  this.write();
+  this.show();
+  this.update(true, x, y);
+  this.x = x; 
+  this.y = y;
+}
+
+function namosw_l_additem(text, url, frame) {
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById;
+
+  var layer = null;
+  if (is_ns4 && this.parent)
+    layer = eval('this.parent.document.layers.namoswlistitem'+document.namosw_lists.lid);
+  else if (is_ns6)
+    layer = document.getElementById("namoswlistitem" + document.namosw_lists.lid);
+  else
+    layer = eval('document.all.namoswlistitem'+document.namosw_lists.lid);
+
+  if (layer == null && is_ns4) 
+    layer = this.parent ? new Layer(this.width, this.parent) : new Layer(this.width);
+
+  if (layer == null) return;
+
+  if (url)   layer.url   = url;
+  if (frame) {
+    if (frame.indexOf('parent.') != 0)
+      layer.frame = "_" + frame;
+    else
+      layer.frame = frame.substring(7, frame.length);
+  }
+  layer.type = 'item';
+  layer.text = text;
+  layer.lid  = document.namosw_lists.lid;
+  this.items[this.items.length] = layer;
+  layer.hbgColor = this.hbgColor;
+  layer.oBgColor = this.bgColor;
+  layer.fgColor = this.fgColor;
+  layer.hfgColor = this.hfgColor;
+  if (layer.captureEvents)
+    layer.captureEvents(Event.MOUSEOVER|Event.MOUSEOUT|Event.MOUSEUP);
+  layer.onmouseover = namosw_l_onmouseover;
+  layer.onmouseout  = namosw_l_onmouseout;
+//  layer.onmouseup   = namosw_l_onmouseup;
+  document.namosw_lists.lid++;
+}
+
+function namosw_l_addlist(list, text, url, frame) {
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById;
+
+  var layer = null;
+
+  if (is_ns4 && this.parent)
+    layer = eval('this.parent.document.layers.namoswlistitem'+document.namosw_lists.lid);
+  else if (is_ns6)
+    layer = document.getElementById("namoswlistitem" + document.namosw_lists.lid);
+  else
+    layer = eval('document.all.namoswlistitem'+document.namosw_lists.lid);
+  if (layer == null && is_ns4) 
+      layer = this.parent ? new Layer(this.width, this.parent) : new Layer(this.width);
+
+  if (layer == null) return;
+
+  if (url)   layer.url   = url;
+  if (frame) {
+    if (frame.indexOf('parent.') != 0)
+      layer.frame = "_" + frame;
+    else
+      layer.frame = frame.substring(7, frame.length);
+  }
+  layer.list = list;
+  layer.type = 'list';
+  layer.text = text;
+  layer.lid  = document.namosw_lists.lid;
+  this.items[this.items.length] = layer;
+  list.parent = this;
+  layer.hbgColor = this.hbgColor;
+  layer.oBgColor = this.bgColor;
+  layer.fgColor = this.fgColor;
+  layer.hfgColor = this.hfgColor;
+  if (layer.captureEvents)
+    layer.captureEvents(Event.MOUSEOVER|Event.MOUSEOUT|Event.MOUSEUP);
+  layer.onmouseover = namosw_l_onmouseover;
+  layer.onmouseout  = namosw_l_onmouseout;
+//  layer.onmouseup   = namosw_l_onmouseup;
+  document.namosw_lists.lid++;
+}
+
+function namosw_l_onmouseover()
+{
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById;
+
+  if (is_ns4) {
+    if (this.hbgColor)
+      this.bgColor = this.hbgColor;
+  } else {
+    if (this.hbgColor) this.style.backgroundColor = this.hbgColor;
+    if (this.hfgColor) this.span.style.color = this.hfgColor;
+  }
+  if (this.url) self.status = this.url;
+}
+
+function namosw_l_onmouseout()
+{
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById;
+
+  if (is_ns4) {
+    this.bgColor = this.oBgColor;
+  } else  {
+    this.style.backgroundColor = this.oBgColor;
+    this.span.style.color = this.fgColor;
+  }
+  if (this.url) self.status = '';
+}
+
+function namosw_l_onmouseup()
+{
+  if (this.url) {
+    if (this.frame == 'blank') {
+      window.open(this.url, 'win1');
+    } else {
+      var frame_obj;
+      if ((frame_obj = eval(this.frame)) != null)
+        frame_obj.location = this.url;
+    }
+  }
+}
+
+function namosw_ns_resize()
+{
+  window.history.go(0);
+}
+
+// -->
+</script>
+<script language="JavaScript">
+<!--
+function nn_init_navigation_tree()
+{
+  if (!document.namosw_lists) {
+    document.namosw_lists = new Array();
+    document.namosw_lists.lid = 0;
+  }
+
+  var layer;
+  var string;
+
+  layer = (document.layers) ? document.layers["layer1"] : document.all["layer1"];
+  string = "";
+  for (i = 0; i < 22; i++) {
+    string = string + "<div id='namoswlistitem" + (document.namosw_lists.lid+i) + "' " +
+                      "style='position: absolute;'></div>";
+  }
+  layer.innerHTML += string;
+
+  // NAMO_NAVTREE 0 9 200
+  l1 = new namosw_list(layer, true, 200, 22, '', '12 pt', 'black', '', '','','black');
+    l2 = new namosw_list(layer, true, 200, 22, '', '12 pt', 'black', '', '','','black');
+      l3 = new namosw_list(layer, true, 200, 22, '', '12 pt', 'black', '', '','','black');
+        l4 = new namosw_list(layer, true, 200, 22, '', '12 pt', 'black', '', '','','black');
+          l5 = new namosw_list(layer, true, 200, 22, '', '12 pt', 'black', '', '','','black');
+          l5.additem('선생님들의 공지', 'soo haeng-1.html', '');
+        l4.addlist(l5, '수행평가', 'student page1.htm', '');
+        l4.additem('학교 일정', 'student page3.htm', '');
+        l4.additem('학급게시판', '', '');
+      l3.addlist(l4, 'N.S 학생 게시판', 'N.S student.htm', '');
+        l6 = new namosw_list(layer, true, 200, 22, '', '12 pt', 'black', '', '','','black');
+        l6.additem('공지사항', '', '');
+        l6.additem('자게', '', '');
+        l6.additem('질문/질답게시판', '', '');
+        l6.additem('스터디 게시판', '', '');
+        l6.additem('동아리 게시판', '', '');
+        l6.additem('맨토앤맨티', '', '');
+      l3.addlist(l6, 'N.S 커뮤니티 게시판', 'N.S comunity board.htm', '');
+        l7 = new namosw_list(layer, true, 200, 22, '', '12 pt', 'black', '', '','','black');
+        l7.additem('질문/질답 게시판', '', '');
+        l7.additem('동아리 안내', 'student page2.htm', '');
+        l7.additem('낙생의 자랑거리', '', '');
+        l7.additem('교가 등등', '', '');
+      l3.addlist(l7, 'N.S 안내게시판', 'N.S guide.htm', '');
+      l3.additem('이벤트', '', '');
+      l3.additem('회원가입', 'member.htm', '');
+    l2.addlist(l3, '메인화면', 'main.htm', '');
+  l1.addlist(l2, '시작', 'start.htm', '');
+  l1.additem('제목 없음', 'start.htm', '');
+
+  l1.make(0, 14);
+}
+//-->
+</script>
+</head>
+<body OnLoad="nn_init_navigation_tree();" OnResize="namosw_ns_resize();">
+
+
+<p>11월달 낙생고 일정!!</p>
+<p>&nbsp;</p>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="708">
+    <TR>
+        <TD 
+style="PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 20px" 
+height=350 vAlign=top align=middle width="708">
+            <TABLE border="1" cellSpacing="0" width="92%" 
+background="file:///C|/Documents%20and%20Settings/Administrator/My%20Documents/My%20Site/Site4/title_top_bg2.gif" 
+bgColor=#dddddd bordercolor="white" bordercolordark="#0066FF" bordercolorlight="#0066CC" height="597">
+                <TBODY>
+                <TR>
+                    <TD height=25 width=40 align=middle bgcolor="#669900"><B><font face="HY태백B" color="black">날짜</font></B><font face="HY태백B"></font></TD>
+                    <TD width=50 align=middle bgcolor="#669900"><B><font face="HY태백B" color="black">요일</font></B><font face="HY태백B"></font></TD>
+                    <TD align=middle bgcolor="#669900" width="401"><B><font face="HY태백B" color="black">행사내용</font></B><font face="HY태백B"></font></TD>
+                    <TD width="72" align=middle bgcolor="#669900"><B><font face="HY태백B" color="black">담당부서</font></B><font face="HY태백B"></font></TD>
+                    <TD width="69" align=middle bgcolor="#669900"><B><font face="HY태백B" color="black">비고</font></B></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">5</font></TD>
+                    <TD align=middle width="50"><font face="HY엽서M">금요일</font></TD>
+                    <TD width="401"><font face="HY엽서M">영어소통인증시험 </font>    </TD>
+                    <TD align=middle width="72"></TD>
+                    <TD align=middle width="69"><font face="HY엽서M">(1,2)</font></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">6</font></TD>
+                    <TD align=middle width="50"><font face="HY엽서M">토요일</font></TD>
+                    <TD width="401"><font face="HY엽서M">전일제 </font>    </TD>
+                    <TD align=middle width="72"></TD>
+                    <TD align=middle width="69"></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">7</font></TD>
+                    <TD align=middle width="50"><font face="HY엽서M">일요일</font></TD>
+                    <TD width="401"><font face="HY엽서M">일요일 </font>    </TD>
+                    <TD align=middle width="72"></TD>
+                    <TD align=middle width="69"></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">12</font></TD>
+                    <TD align=middle width="50"><font face="HY엽서M">금요일</font></TD>
+                    <TD width="401"><font face="HY엽서M">개교기념일 </font>    </TD>
+                    <TD align=middle width="72"></TD>
+                    <TD align=middle width="69"></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">13</font></TD>
+                    <TD align=middle width="50"><font face="HY엽서M">토요일</font></TD>
+                    <TD width="401"><font face="HY엽서M">토요휴업일 </font>    </TD>
+                    <TD align=middle width="72"></TD>
+                    <TD align=middle width="69"></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">14</font></TD>
+                    <TD align=middle width="50"><font face="HY엽서M">일요일</font></TD>
+                    <TD width="401"><font face="HY엽서M">일요일 </font>    </TD>
+                    <TD align=middle width="72"></TD>
+                    <TD align=middle width="69"></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">16</font></TD>
+                    <TD align=middle width="50"><font face="HY엽서M">화요일</font></TD>
+                    <TD width="401"><b><u><font face="HY센스L" color="#C0504D">홈페이지 경영대회 결과물 제출일</font></u></b></TD>
+                    <TD align=middle width="72"></TD>
+                    <TD align=middle width="69"></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">18</font></TD>
+                    <TD align=middle width="50"><font face="HY엽서M">목요일</font></TD>
+                    <TD width="401"><font face="HY엽서M">대학수학능력시험 </font>    </TD>
+                    <TD align=middle width="72"></TD>
+                    <TD align=middle width="69"></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">20</font></TD>
+                    <TD align=middle width="50"><font face="HY엽서M">토요일</font></TD>
+                    <TD width="401"></TD>
+                    <TD align=middle width="72"></TD>
+                    <TD align=middle width="69"></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">21</font></TD>
+                    <TD align=middle width="50"><font face="HY엽서M">일요일</font></TD>
+                    <TD width="401"><font face="HY엽서M">일요일 </font>    </TD>
+                    <TD align=middle width="72"></TD>
+                    <TD align=middle width="69"></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">22</font></TD>
+                    <TD align=middle width="50"><font face="HY엽서M">월요일</font></TD>
+                    <TD width="401"><font face="HY엽서M">기말고사1일 </font>    </TD>
+                    <TD align=middle width="72"></TD>
+                    <TD align=middle width="69"><font face="HY엽서M">(3)</font></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">23</font></TD>
+                    <TD align=middle width="50"><font face="HY엽서M">화요일</font></TD>
+                    <TD width="401"><font face="HY엽서M">기말고사2일 경기도 학업성취도평가 </font>    </TD>
+                    <TD align=middle width="72"></TD>
+                    <TD align=middle width="69"><font face="HY엽서M">(3) (1,2)</font></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">24</font></TD>
+                    <TD align=middle width="50"><font face="HY엽서M">수요일</font></TD>
+                    <TD width="401"><font face="HY엽서M">기말고사3일 </font>    </TD>
+                    <TD align=middle width="72"></TD>
+                    <TD align=middle width="69"><font face="HY엽서M">(3)</font></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">25</font></TD>
+                    <TD align=middle width="50"><font face="HY엽서M">목요일</font></TD>
+                    <TD width="401"><font face="HY엽서M">기말고사4일 </font>    </TD>
+                    <TD align=middle width="72"></TD>
+                    <TD align=middle width="69"><font face="HY엽서M">(3)</font></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">26</font></TD>
+                    <TD align=middle width="50"><font face="HY엽서M">금요일</font></TD>
+                    <TD width="401"><font face="HY엽서M">기말고사5일 </font>    </TD>
+                    <TD align=middle width="72"></TD>
+                    <TD align=middle width="69"><font face="HY엽서M">(3)</font></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">27</font></TD>
+                    <TD align=middle width="50"><font face="HY엽서M">토요일</font></TD>
+                    <TD width="401"><font face="HY엽서M">토요휴업일 </font>    </TD>
+                    <TD align=middle width="72"></TD>
+                    <TD align=middle width="69"></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">28</font></TD>
+                    <TD align=middle width="50"><font face="HY엽서M">일요일</font></TD>
+                    <TD width="401"><font face="HY엽서M">일요일 </font>    </TD>
+                    <TD align=middle width="72"></TD>
+                    <TD align=middle width="69"></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">29</font></TD>
+                    <TD align=middle width="50"><font face="HY엽서M">월요일</font></TD>
+                    <TD width="401"></TD>
+                    <TD align=middle width="72"></TD>
+                    <TD align=middle width="69"></TD>
+                </TR>
+                <TR bgColor=#ffffff>
+                    <TD height=30 align=middle width="40"><font face="HY엽서M">30</font></TD>
+                    <TD align=middle width="50" height="30"><font face="HY엽서M">화요일</font></TD>
+                    <TD width="401" height="30"></TD>
+                    <TD align=middle width="72" height="30"></TD>
+                    <TD align=middle width="69" height="30"></TD>
+                </TR>
+                </TBODY>
+            </TABLE>
+        </TD>
+    </TR>
+</TABLE>
+<div id="layer1" style="width:200px; height:200px; position:absolute; left:20px; top:772px; z-index:1;" namo_navtree="0;9">
+    <p>&nbsp;</p>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html> 

@@ -1,0 +1,199 @@
+<html>
+<head>
+<meta name="GENERATOR" content="Namo WebEditor(Trial)">
+<title>동아리 안내</title>
+
+
+
+
+
+
+
+
+<meta name="author" content="문광현">
+<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+<script language="JavaScript">
+<!--
+function na_restore_img_src(name, nsdoc)
+{
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img && img.altsrc) {
+    img.src    = img.altsrc;
+    img.altsrc = null;
+  } 
+}
+
+function na_change_img_src(name, nsdoc, rpath, preload)
+{ 
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img) {
+    img.altsrc = img.src;
+    img.src    = rpath;
+  } 
+}
+
+function na_open_window(name, url, left, top, width, height, toolbar, menubar, statusbar, scrollbar, resizable)
+{
+  toolbar_str = toolbar ? 'yes' : 'no';
+  menubar_str = menubar ? 'yes' : 'no';
+  statusbar_str = statusbar ? 'yes' : 'no';
+  scrollbar_str = scrollbar ? 'yes' : 'no';
+  resizable_str = resizable ? 'yes' : 'no';
+
+  cookie_str = document.cookie;
+  cookie_str.toString();
+
+  pos_start  = cookie_str.indexOf(name);
+  pos_end    = cookie_str.indexOf('=', pos_start);
+
+  cookie_name = cookie_str.substring(pos_start, pos_end);
+
+  pos_start  = cookie_str.indexOf(name);
+  pos_start  = cookie_str.indexOf('=', pos_start);
+  pos_end    = cookie_str.indexOf(';', pos_start);
+  
+  if (pos_end <= 0) pos_end = cookie_str.length;
+  cookie_val = cookie_str.substring(pos_start + 1, pos_end);
+  if (cookie_name == name && cookie_val  == "done")
+    return;
+
+  window.open(url, name, 'left='+left+',top='+top+',width='+width+',height='+height+',toolbar='+toolbar_str+',menubar='+menubar_str+',status='+statusbar_str+',scrollbars='+scrollbar_str+',resizable='+resizable_str);
+}
+
+// -->
+</script>
+
+</head>
+<body>
+
+<!--NAMO_NAVBAR_START A h         16 7 34 5 4 6 -->
+<div>
+<font face="서울전설M"><b>[<a href="guide page1.htm"  onmouseover="" onmouseout="">질문/질답 게시판</a>][동아리 안내][<a href="guide page3_1.htm"  onmouseover="" onmouseout="">낙생의 자랑거리</a>][<a href="guide page3.htm"  onmouseover="" onmouseout="">교가</a>]</b></font></div>
+<!--NAMO_NAVBAR_END--><p><font face="HY태백B">낙생고등학교 동아리</font>(동아리에 관한 정보를 얻지 못해서 일단 학교 홈페이지를 참고 하였음)</p>
+<p>각종 동아리 별로 카페나 홈페이지 있다면 하이퍼 링크를 통하여 이용할 수 있도록 하겠음</p>
+<table border="1" width="657" height="911">
+    <tr>
+        <td width="105" bordercolor="#0066FF"><font face="HY태백B">사 랑 나 눔</font></td>
+        <td width="536" bordercolor="#0066FF">
+            <P><font face="굴림체">가정, 학교, 지역사회의 일원으로 참여하는 봉사활동을 통해 소중한 체험의 기회를 갖고 사회적 책임을 분담하고 삶의 보람을 체득할 수 있다.</font></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="105" bordercolor="#0066FF"><font face="HY태백B">리 즘</font></td>
+        <td width="536" bordercolor="#0066FF">
+            <P><font face="굴림체">사진에 흥미나 관심이 있는 학생들이 함께 모여 사진과 카메라에 대한 정보를 공유하고 출사를 직접 나가서 좋은 사진을 연출해 보는 기회를 갖는다.</font></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="105" bordercolor="#0066FF"><font face="HY태백B"><a href="javascript:na_open_window('win', 'http://club.cyworld.com/NSVERITAS', 0, 0, 800, 600, 1, 1, 1, 1, 1)" target="_self">베리타스 (생활법 연구)</a></font></td>
+        <td width="536" bordercolor="#0066FF">
+            <P><font face="굴림체">민주시민의 법적 사고력을 기르고, 사회질서와 정의가 구현되는 바람직한 법문화 형성에 기여할 수 있는 능력과 태도를 계발한다.</font></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="105" bordercolor="#0066FF" height="18"><font face="HY태백B">N.S.B.T</font></td>
+        <td width="536" bordercolor="#0066FF" height="18">
+            <P><font face="굴림체">농구를 통하여 체력을 증진시키고 선후배간 친목을 도모하고자 한다.</font></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="105" bordercolor="#0066FF"><font face="HY태백B">N. B. S</font></td>
+        <td width="536" bordercolor="#0066FF">
+            <P><font face="굴림체">교내 방송부로 학교의 주요행사를 담당하여 진행함으로써 책임감 및 협력하는 과정 속에서 협동심을 기른다. 방송관련 기기 조작법을 배우고 원활한 교내 방송시스템을 구축한다.</font></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="105" bordercolor="#0066FF"><B><font face="HY태백B"><a href="javascript:na_open_window('win', 'http://club.cyworld.com/nsiskra', 0, 0, 800, 600, 1, 1, 1, 1, 1)" target="_self">ISKRA </a></font></B></td>
+        <td width="536" bordercolor="#0066FF">
+            <P><font face="굴림체">교내 신문 편집 동아리로서 신문 편집을 통하여 학교를 대내외에 알리고, 신문 제작의 다양한 경험을 습득한다.</font></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="105" bordercolor="#0066FF"><font face="HY태백B"><a href="javascript:na_open_window('win', 'http://tempest21.cyworld.com ', 0, 0, 800, 600, 0, 0, 0, 0, 0)" target="_self">Tempest 21</a></font></td>
+        <td width="536" bordercolor="#0066FF">
+            <P><font face="굴림체">영어 연극 발표를 통하여 영어 구사능력 향상을 도모하고, 영어 학습에 있어서 현장 중심의 영어를 익힘으로써 좀 더 재미있고, 실제로 활용하는 영어활동을 하고자 한다.</font></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="105" bordercolor="#0066FF"><font face="HY태백B"><a href="javascript:na_open_window('win', 'http://club.cyworld.com/nsdfear', 0, 0, 800, 600, 1, 1, 1, 1, 1)" target="_self">Fear</a></font></td>
+        <td width="536" bordercolor="#0066FF">
+            <P><font face="굴림체">댄스 동아리로 선후배들과의 친목 도모와 학업의 스트레스를 해소하고, 학교축제, 댄스경연대회 등 각종 행사에 참여하여 자신을 좀 더 발전시키고 자신감을 기를 수 있도록 한다.</font></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="105" bordercolor="#0066FF"><font face="HY태백B">다락</font></td>
+        <td width="536" bordercolor="#0066FF">
+            <P><font face="굴림체">독서 토론 동아리로서 독서 토론을 통하여 종합적인 사고력을 바탕으로 한 자료 중심의 토론 능력을 배양하고, 독서를 통하여 자기 능력을 계발하고 교양을 쌓도록 한다.</font></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="105" bordercolor="#0066FF"><font face="HY태백B">PULSE (밴드 동아리)</font></td>
+        <td width="536" bordercolor="#0066FF">
+            <P><font face="굴림체">좋아하는 음악을 연주함으로써 스트레스를 해소하고 즐거움을 느끼며, 다른 사람과의 합주를 통해 협동심과 사회성을 기르고 예술적 즐거움을 느낀다.</font></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="105" bordercolor="#0066FF"><font face="HY태백B"><a href="javascript:na_open_window('win', 'http://club.cyworld.com/koreahabitat', 0, 0, 800, 600, 1, 1, 1, 1, 1)" target="_self">Habitat</a></font></td>
+        <td width="536" bordercolor="#0066FF">
+            <P><font face="굴림체">전세계 무주택 무직자들에게 공급될 집을 짓는 해비타트의 사랑의 집짓기를 통한 자원봉사를 실현하여 협동심과 자아를 키울 수 있도록 한다.</font></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="105" bordercolor="#0066FF" height="21"><font face="HY태백B"><a href="javascript:na_open_window('win', 'http://www.edison21.co.kr/', 0, 0, 300, 200, 1, 1, 1, 1, 1)" target="_self">에디슨 <BR>따라잡기</a></font></td>
+        <td width="536" bordercolor="#0066FF" height="21">
+            <P><font face="굴림체">발명부 벤처 동아리로서 사단법인 벤처 동아리로 등록하여 벤처 마인드의 형성과 발명 아이템의 사업화를 꾀한다.</font></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="105" bordercolor="#0066FF"><font face="HY태백B"><a href="javascript:na_open_window('win', 'http://cafe.naver.com/nskhessed', 0, 0, 800, 600, 1, 1, 1, 1, 1)" target="_self">헤세드</a></font></td>
+        <td width="536" bordercolor="#0066FF">
+            <P><font face="굴림체">기독교 학생들의 모임으로 참된 신앙생활을 목표로 올바른 종교관을 가지며 학생 상호간 친목을 도모한다.</font></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="105" bordercolor="#0066FF">
+            <p><font face="HY태백B"><a href="javascript:na_open_window('win', 'http://club.cyworld.com/4spy', 0, 0, 800, 600, 1, 1, 1, 1, 1)" target="_self">S.P.Y (과학탐구부)</a></font></p>
+        </td>
+        <td width="536" bordercolor="#0066FF">
+            <P><font face="굴림체">과학적 원리와 사고를 다양한 체험활동을 통해 익히고 이를 통해 과학을 쉽고 재미있게 접할 수 있도록 한다.</font></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="105" bordercolor="#0066FF" height="21"><font face="HY태백B">Luciel</font></td>
+        <td width="536" bordercolor="#0066FF" height="21">
+            <P><font face="굴림체">코스프레 동아리로 만화, 연극, 춤, 패션이 함께 어우러지는 종합적이고 창조적인 활동을 통해 문화적 탐구심과 끼를 발산하고, 스스로 무엇인가를 만들어 보고 자신을 표현하는 과정에서 자기 발견 효과를 가진다.</font></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="105" bordercolor="#0066FF"><font face="HY태백B">The Film</font></td>
+        <td width="536" bordercolor="#0066FF">
+            <P><font face="굴림체">영화감상 동아리로서 영화 감상을 통하여 간접 경험을 하며 영화에 대한 평론과 토론을 통하여 자신의 세계를 넓혀 나간다.</font></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="105" bordercolor="#0066FF"><font face="HY태백B">BLAT</font></td>
+        <td width="536" bordercolor="#0066FF">
+            <P><font face="굴림체">21세기 거리문화의 중심으로 손꼽히는 흑인문화에 대해서 연구 및 직접적인 경험을 통해 건전한 청소년 문화 활동을 유도한다.</font></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="105" bordercolor="#0066FF"><font face="HY태백B">한사랑</font></td>
+        <td width="536" bordercolor="#0066FF">
+            <P><font face="굴림체">진실된 마음으로 불우이웃을 돕고 봉사정신을 함양한다.</font></P>
+        </td>
+    </tr>
+    <tr>
+        <td width="105" height="42" bordercolor="#0066FF">
+            <P><STRONG><font face="HY태백B"><a href="javascript:na_open_window('win', 'http://cafe.naver.com/nsaletheia.cafe?iframe_url=/ArticleRead.nhn%3Farticleid=24', 0, 0, 800, 600, 1, 1, 1, 1, 1)" target="_self">Aletheia</a></font></STRONG></P>
+        </td>
+        <td width="536" height="42" bordercolor="#0066FF">
+            <P><STRONG><font face="굴림">자신만의 풀이를 공개하며, 학교,학원같은 곳에서 배우는 &nbsp;못한 내용을&nbsp;위주로 공유한다.</font></STRONG></P>
+        </td>
+    </tr>
+</table>
+</body>
+</html> 

@@ -1,0 +1,99 @@
+<html>
+<head>
+<meta name="GENERATOR" content="Namo WebEditor(Trial)">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+
+
+<meta name="author" content="문광현"><title>학교 상징물</title>
+<script language="JavaScript">
+<!--
+function na_restore_img_src(name, nsdoc)
+{
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img && img.altsrc) {
+    img.src    = img.altsrc;
+    img.altsrc = null;
+  } 
+}
+
+function na_change_img_src(name, nsdoc, rpath, preload)
+{ 
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img) {
+    img.altsrc = img.src;
+    img.src    = rpath;
+  } 
+}
+
+// -->
+</script>
+
+</head>
+<body>
+
+<table>
+    <TR>
+        <TD><!--NAMO_NAVBAR_START A h         16 7 34 5 4 6 -->
+<div>
+<font face="서울전설M"><b>[<a href="guide page1.htm"  onmouseover="" onmouseout="">질문/질답 게시판</a>][<a href="guide page2.htm"  onmouseover="" onmouseout="">동아리 안내</a>][<a href="guide page3_1.htm"  onmouseover="" onmouseout="">낙생의 자랑거리</a>][<a href="guide page3.htm"  onmouseover="" onmouseout="">교가</a>]</b></font></div>
+<!--NAMO_NAVBAR_END--><p>&nbsp;</p>
+<!--NAMO_NAVBAR_START A h         18 7 17 5 4 6 -->
+<div>
+<font face="서울가을바람M">[<a href="proud page1.htm"  onmouseover="" onmouseout="">학교얼</a>][학교 상징물][<a href="proud page3.htm"  onmouseover="" onmouseout="">학교규정(가장 자랑스러운 부분)</a>][<a href="proud page4.htm"  onmouseover="" onmouseout="">주요활동실적</a>]</font></div>
+<!--NAMO_NAVBAR_END--><p>&nbsp;</p>
+<IMG src="tit_14.png" width=700 height=51></TD>
+    </TR>
+    <TR>
+        <TD 
+style="PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 20px" 
+height=350 vAlign=top align=middle>
+            <DIV id=LM__pageContent>
+                <TABLE cellSpacing=0 cellPadding=0 width=600>
+                    <TBODY>
+                    <TR>
+                        <TD height=20 width=277><FONT size=2><STRONG><FONT size=3><IMG 
+src="bul2.gif" width=9 height=7> 교목 銀 杏 (은행) ― 幸 福</FONT></STRONG> 
+</FONT><B><B><BR></B></B></TD>
+                        <TD height=20 width=299><STRONG><FONT size=3><IMG src="bul2.gif" 
+width=9 height=7> 교화 薔 薇 (장미) ― 사 랑</FONT></STRONG>    </TD>
+                    </TR>
+                    <TR>
+                        <TD width=277><IMG src="img_02.jpg" width=169 height=169></TD>
+                        <TD width=299><IMG src="img_01.jpg" width=169 
+height=169></TD>
+                    </TR>
+                    </TBODY>
+                </TABLE>
+<BR>
+                <TABLE cellSpacing=0 cellPadding=0 width=600>
+                    <TBODY>
+                    <TR>
+                        <TD><STRONG><FONT size=3><IMG src="bul2.gif" width=9 
+height=7>교표</FONT> <BR></STRONG><BR></TD>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <TABLE cellSpacing=1 cellPadding=0>
+                                <TBODY>
+                                <TR>
+                                    <TD><IMG src="kyopo.gif"></TD>
+                                </TR>
+                                </TBODY>
+                            </TABLE>
+                        </TD>
+                    </TR>
+                    </TBODY>
+                </TABLE>
+            </DIV>
+        </TD>
+    </TR>
+</table>
+<p>&nbsp;</p>
+</body>
+</html> 

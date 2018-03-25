@@ -1,0 +1,590 @@
+<html>
+<head>
+<meta name="GENERATOR" content="Namo WebEditor(Trial)">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+
+
+
+
+
+
+
+<meta name="author" content="문광현"><title>낙생의 자랑거리</title>
+<script language="JavaScript">
+<!--
+function na_restore_img_src(name, nsdoc)
+{
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img && img.altsrc) {
+    img.src    = img.altsrc;
+    img.altsrc = null;
+  } 
+}
+
+function na_change_img_src(name, nsdoc, rpath, preload)
+{ 
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img) {
+    img.altsrc = img.src;
+    img.src    = rpath;
+  } 
+}
+
+// -->
+</script>
+</head>
+<body>
+
+
+<!--NAMO_NAVBAR_START A h         17 7 19 18 4 6 -->
+<div>
+<font face="HY나무L"></font></div>
+<!--NAMO_NAVBAR_END--><!--NAMO_NAVBAR_START A h         19 7 24 5 4 6 -->
+<div>
+<font face="서울흘기"></font></div>
+<!--NAMO_NAVBAR_END--><p><b><font face="HY나무L"><span style="font-size:16pt;">이곳은 </span></font></b><font face="HY나무L"><span style="font-size:16pt;">낙생인들의 자랑스러운 업적등을 펼쳐놓은곳입니다.</span></font></p>
+<p><font face="HY바다M"><span style="font-size:18pt;"><b>2010학년도 진학결과(종합)</b></span></font></p>
+<table bgcolor="#9485FF">
+    <TR style="HEIGHT: 14.25pt" height=19>
+        <TD 
+style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ccffcc; WIDTH: 68pt; HEIGHT: 14.25pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl22 height=19 width=90>
+            <P align=center><FONT color=#0000ff 
+face=굴림체><STRONG>대학명</STRONG></FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ccffcc; WIDTH: 60pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl23 width=80>
+            <P align=center><FONT color=#0000ff 
+face=굴림체><STRONG>합격수</STRONG></FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; WIDTH: 14pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl24 width=19>
+            <P align=center><FONT color=#0000ff face=굴림체><STRONG></STRONG></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ccffcc; WIDTH: 60pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl22 width=80>
+            <P align=center><FONT color=#0000ff 
+face=굴림체><STRONG>대학명</STRONG></FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ccffcc; WIDTH: 60pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl23 width=80>
+            <P align=center><FONT color=#0000ff 
+face=굴림체><STRONG>합격수</STRONG></FONT></P>
+        </TD>
+    </TR>
+    <TR style="HEIGHT: 13.5pt" height=18>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; HEIGHT: 13.5pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl25 height=18>
+            <P align=center><FONT color=#ff0000 
+face=굴림체><STRONG>의예과</STRONG></FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl26 x:num>
+            <P align=center><FONT color=#ff0000 
+face=HY울릉도B><STRONG>12</STRONG></FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; WIDTH: 14pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl27 width=19>
+            <P align=center><FONT color=#ff0000 
+face=HY울릉도B><STRONG></STRONG></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl25 bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT color=#ff0000 
+face=굴림체><STRONG>한의예과</STRONG></FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: #ece9d8; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl26 x:num bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT color=#ff0000 
+face=HY울릉도B><STRONG>6</STRONG></FONT></P>
+        </TD>
+    </TR>
+    <TR style="HEIGHT: 13.5pt" height=18>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; HEIGHT: 13.5pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl28 height=18>
+            <P align=center><FONT color=#ff0000 
+face=굴림체><STRONG>서울대</STRONG></FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl29 x:num>
+            <P align=center><FONT color=#ff0000 
+face=HY울릉도B><STRONG>6</STRONG></FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; WIDTH: 14pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl27 width=19>
+            <P align=center><FONT color=#ff0000 
+face=HY울릉도B><STRONG></STRONG></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl28 bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT color=#ff0000 
+face=굴림체><STRONG>경찰대</STRONG></FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl29 x:num bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT color=#ff0000 
+face=HY울릉도B><STRONG>1</STRONG></FONT></P>
+        </TD>
+    </TR>
+    <TR style="HEIGHT: 13.5pt" height=18>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; HEIGHT: 13.5pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 height=18>
+            <P align=center><STRONG><FONT face=굴림체>연세대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num>
+            <P align=center><FONT face=HY헤드라인M>26</FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl32>
+            <P align=center><FONT face=HY헤드라인M></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><STRONG><FONT face=굴림체>광운대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT face=HY헤드라인M>7</FONT></P>
+        </TD>
+    </TR>
+    <TR style="HEIGHT: 13.5pt" height=18>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; HEIGHT: 13.5pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 height=18>
+            <P align=center><STRONG><FONT face=굴림체>고려대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num>
+            <P align=center><FONT face=HY헤드라인M>24</FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl32>
+            <P align=center><FONT face=HY헤드라인M></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><STRONG><FONT face=굴림체>상명대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT face=HY헤드라인M>7</FONT></P>
+        </TD>
+    </TR>
+    <TR style="HEIGHT: 13.5pt" height=18>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; HEIGHT: 13.5pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 height=18>
+            <P align=center><STRONG><FONT face=굴림체>서강대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num>
+            <P align=center><FONT face=HY헤드라인M>10</FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl32>
+            <P align=center><FONT face=HY헤드라인M></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><STRONG><FONT face=굴림체>성신여대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT face=HY헤드라인M>5</FONT></P>
+        </TD>
+    </TR>
+    <TR style="HEIGHT: 13.5pt" height=18>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; HEIGHT: 13.5pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 height=18>
+            <P align=center><STRONG><FONT face=굴림체>성균관대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num>
+            <P align=center><FONT face=HY헤드라인M>21</FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl32>
+            <P align=center><FONT face=HY헤드라인M></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><STRONG><FONT face=굴림체>동덕여대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT face=HY헤드라인M>5</FONT></P>
+        </TD>
+    </TR>
+    <TR style="HEIGHT: 13.5pt" height=18>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; HEIGHT: 13.5pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 height=18>
+            <P align=center><STRONG><FONT face=굴림체>한양대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num>
+            <P align=center><FONT face=HY헤드라인M>27</FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl32>
+            <P align=center><FONT face=HY헤드라인M></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><STRONG><FONT face=굴림체>명지대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT face=HY헤드라인M>4</FONT></P>
+        </TD>
+    </TR>
+    <TR style="HEIGHT: 13.5pt" height=18>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; HEIGHT: 13.5pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 height=18>
+            <P align=center><STRONG><FONT face=굴림체>이화여대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num>
+            <P align=center><FONT face=HY헤드라인M>11</FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl32>
+            <P align=center><FONT face=HY헤드라인M></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><STRONG><FONT face=굴림체>세종대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT face=HY헤드라인M>4</FONT></P>
+        </TD>
+    </TR>
+    <TR style="HEIGHT: 13.5pt" height=18>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; HEIGHT: 13.5pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 height=18>
+            <P align=center><STRONG><FONT face=굴림체>경희대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num>
+            <P align=center><FONT face=HY헤드라인M>31</FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl32>
+            <P align=center><FONT face=HY헤드라인M></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><STRONG><FONT face=굴림체>국민대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT face=HY헤드라인M>4</FONT></P>
+        </TD>
+    </TR>
+    <TR style="HEIGHT: 13.5pt" height=18>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; HEIGHT: 13.5pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 height=18>
+            <P align=center><STRONG><FONT face=굴림체>중앙대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num>
+            <P align=center><FONT face=HY헤드라인M>28</FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl32>
+            <P align=center><FONT face=HY헤드라인M></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><STRONG><FONT face=굴림체>서울여대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT face=HY헤드라인M>7</FONT></P>
+        </TD>
+    </TR>
+    <TR style="HEIGHT: 13.5pt" height=18>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; HEIGHT: 13.5pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 height=18>
+            <P align=center><STRONG><FONT face=굴림체>한국외대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num>
+            <P align=center><FONT face=HY헤드라인M>24</FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl32>
+            <P align=center><FONT face=HY헤드라인M></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><STRONG><FONT face=굴림체>서울예종</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT face=HY헤드라인M>3</FONT></P>
+        </TD>
+    </TR>
+    <TR style="HEIGHT: 13.5pt" height=18>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; HEIGHT: 13.5pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 height=18>
+            <P align=center><STRONG><FONT face=굴림체>건국대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num>
+            <P align=center><FONT face=HY헤드라인M>38</FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl32>
+            <P align=center><FONT face=HY헤드라인M></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><STRONG><FONT face=굴림체>아주대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT face=HY헤드라인M>28</FONT></P>
+        </TD>
+    </TR>
+    <TR style="HEIGHT: 13.5pt" height=18>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; HEIGHT: 13.5pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 height=18>
+            <P align=center><STRONG><FONT face=굴림체>숙명여대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num>
+            <P align=center><FONT face=HY헤드라인M>18</FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl32>
+            <P align=center><FONT face=HY헤드라인M></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><STRONG><FONT face=굴림체>경원대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT face=HY헤드라인M>13</FONT></P>
+        </TD>
+    </TR>
+    <TR style="HEIGHT: 13.5pt" height=18>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; HEIGHT: 13.5pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 height=18>
+            <P align=center><STRONG><FONT face=굴림체>홍익대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num>
+            <P align=center><FONT face=HY헤드라인M>24</FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl32>
+            <P align=center><FONT face=HY헤드라인M></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><STRONG><FONT face=굴림체>경기대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT face=HY헤드라인M>11</FONT></P>
+        </TD>
+    </TR>
+    <TR style="HEIGHT: 13.5pt" height=18>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; HEIGHT: 13.5pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 height=18>
+            <P align=center><STRONG><FONT face=굴림체>동국대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num>
+            <P align=center><FONT face=HY헤드라인M>16</FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl32>
+            <P align=center><FONT face=HY헤드라인M></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl33 bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><STRONG><FONT face=굴림체>경인교대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl34 x:num bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT face=HY헤드라인M>4</FONT></P>
+        </TD>
+    </TR>
+    <TR style="HEIGHT: 13.5pt" height=18>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; HEIGHT: 13.5pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 height=18>
+            <P align=center><STRONG><FONT face=굴림체>단국대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num>
+            <P align=center><FONT face=HY헤드라인M>18</FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl32>
+            <P align=center><FONT face=HY헤드라인M></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl33 bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><STRONG><FONT face=굴림체>부산교대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl34 x:num bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT face=HY헤드라인M>1</FONT></P>
+        </TD>
+    </TR>
+    <TR style="HEIGHT: 13.5pt" height=18>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; HEIGHT: 13.5pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl30 height=18>
+            <P align=center><STRONG><FONT face=굴림체>숭실대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl31 x:num>
+            <P align=center><FONT face=HY헤드라인M>13</FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl32>
+            <P align=center><FONT face=HY헤드라인M></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl33 bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><STRONG><FONT face=굴림체>육 사</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl34 x:num bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT face=HY헤드라인M>2</FONT></P>
+        </TD>
+    </TR>
+    <TR style="HEIGHT: 14.25pt" height=19>
+        <TD 
+style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; HEIGHT: 14.25pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl35 height=19>
+            <P align=center><STRONG><FONT face=굴림체>서울산업대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl36 x:num>
+            <P align=center><FONT face=HY헤드라인M>8</FONT></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: #ece9d8; BORDER-LEFT: #ece9d8; BACKGROUND-COLOR: transparent; BORDER-TOP: #ece9d8; BORDER-RIGHT: #ece9d8" 
+class=xl32>
+            <P align=center><FONT face=HY헤드라인M></FONT>&nbsp;</P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid" 
+class=xl37 bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><STRONG><FONT face=굴림체>한동대</FONT></STRONG></P>
+        </TD>
+        <TD 
+style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #ffff99; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 1pt solid" 
+class=xl38 x:num bordercolor="#F29159" bgcolor="#F29159">
+            <P align=center><FONT face=HY헤드라인M>3</FONT></P>
+        </TD>
+    </TR>
+    </TBODY>
+</table>
+<P>&nbsp;<STRONG></STRONG></P>
+<font size="3"></FONT><P class=바탕글>
+<font size="3"></font><P style="LINE-HEIGHT: 221%; LAYOUT-GRID-MODE: char; MARGIN-LEFT: 10pt" 
+class=바탕글><font size="3"></FONT><font size="3"></font></P>
+<font size="3"></font><p>&nbsp;</p>
+
+</body>
+</html> 
